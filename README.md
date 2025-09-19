@@ -2,6 +2,8 @@
 
 Google Play 정책을 준수하는 SAF(Storage Access Framework) 기반 텍스트 파일 리더 앱입니다.
 
+> 🤖 이 프로젝트는 **Cursor AI**와의 협업으로 개발되었습니다.
+
 ## 주요 기능
 
 ### 🔒 Google Play 정책 준수
