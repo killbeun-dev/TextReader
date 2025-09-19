@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 파란색 그라데이션 배경 -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor" xmlns:aapt="http://schemas.android.com/aapt">
+            <gradient
+                android:endX="108"
+                android:endY="108"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item
+                    android:color="#1976D2"
+                    android:offset="0.0" />
+                <item
+                    android:color="#0D47A1"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- 미묘한 패턴 효과 -->
+    <group
+        android:alpha="0.1"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:pivotX="54"
+        android:pivotY="54">
+        
+        <!-- 텍스트 리더를 상징하는 미묘한 패턴 -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,20 L20,30 L88,30 L88,20 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,35 L20,45 L88,45 L88,35 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,50 L20,60 L88,60 L88,50 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,65 L20,75 L88,75 L88,65 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M20,80 L20,90 L88,90 L88,80 Z" />
+    </group>
+</vector>
